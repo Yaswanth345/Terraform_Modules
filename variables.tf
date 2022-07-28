@@ -1,0 +1,15 @@
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "vpc_cidr" {}
+variable "vpc_name" {}
+variable "public_subnet_ip" {}
+variable "public_subnet_name" {}
+variable "public_subnet_az" {}
+variable "private_subnet_ip" {}
+variable "private_subnet_name" {}
+variable "private_subnet_az" {}
+variable "terraform_igw_name" {}
+variable "public_RT_ip" {}
+variable "public_RT_name" {}
+variable "private_RT_ip" {}
+variable "private_RT_name" {}
